@@ -1,0 +1,121 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    line-height: 30px;
+}
+
+header {
+    background-color: rgb(148, 207, 211);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+header img {
+    border-radius: 400px;
+    border: 20px solid #78B4DD
+}
+
+header h1 {
+    font-size: 50px;
+    color: #60a7d6;
+    font-family: "Jua", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Jua", sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Jua", sans-serif;
+    font-size: 22px;
+    color: #464646;
+}
+
+main img {
+    max-width: 100%; 
+}
+
+h2 {
+    font-size: 30px;
+    color: #60a7d6;
+    margin: 40px 0 10px;
+    font-family: "Jua", sans-serif;
+}
+
+a {
+    color: #78B4DD;
+    font-family: "Jua", sans-serif;
+
+}
+
+a:hover {
+    color:rgb(54, 125, 255);
+    background-color: rgb(28, 191, 255);
+}
+
+footer {
+    background-color: rgb(148, 207, 211);
+    text-align: center;
+    color: #60a7d6;
+    padding: 50px;
+}
+
+footer a{
+    color:#ffffff
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer a:hover {
+    opacity: 0.5;
+    background-color: transparent;
+}
+
+p.caption {
+    color:#afafaf;
+    font-style: italic;
+    margin-top: 0;
+}
+
+root {
+    --color-dark: #1a1b1d;
+    --color-accent: #d45d3a;
+    --font-display: 'Cormorant Garamond', serif;
+}
+
+.back-to-main {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--color-dark);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 1000;
+    padding: 8px 0;
+    transition: color 0.3s ease;
+}
+
+.back-to-main .arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.back-to-main:hover {
+    color: var(--color-accent);
+}
+
+.back-to-main:hover .arrow {
+    transform: translateX(-5px);
+}

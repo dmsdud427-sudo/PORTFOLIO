@@ -1,0 +1,114 @@
+body {
+    font-family: "Chiron Sung HK", serif;
+    font-size: 20px;
+    margin: 0;
+    line-height: 30px;
+    background-color: rgb(255, 226, 129);
+}
+
+header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+hr {
+    border: 0;             
+    border-top: 2px dashed #ffc547; 
+    margin: 40px 0;        
+}
+
+header img {
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #000000;
+    font-family: "Chiron Sung HK", serif;
+    margin-top: 20px;
+}
+
+h1, h2, a {
+    font-family: "Chiron Sung HK", serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
+    color: #464646;
+}
+
+main img {
+    max-width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 34px;
+    color: #ffae00;
+    margin: 40px 0 10px;
+    font-family: "Chiron Sung HK", serif;
+}
+
+a {
+    color: #78B4DD;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(255, 215, 82);
+    text-align: center;
+    color: #ffffff;
+    padding: 50px;
+}
+
+footer img {
+    width: 200px; 
+}
+
+p.caption {
+    color: #afafaf;
+    font-style: italic;
+    margin-top: 5px;
+    text-align: center;
+}
+
+root {
+    --color-dark: #1a1b1d;
+    --color-accent: #d45d3a;
+    --font-display: 'Cormorant Garamond', serif;
+}
+
+.back-to-main {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--color-dark);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 1000;
+    padding: 8px 0;
+    transition: color 0.3s ease;
+}
+
+.back-to-main .arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.back-to-main:hover {
+    color: var(--color-accent);
+}
+
+.back-to-main:hover .arrow {
+    transform: translateX(-5px);
+}
